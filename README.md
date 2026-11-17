@@ -4,11 +4,10 @@ Systems engineer. Nearly twenty years at Google, the last decade in the plumbing
 
 **What I spend my time on**
 
-- **Multi-tenant isolation.** I led the move of Google's serverless fleet onto [gVisor](https://gvisor.dev) guest-kernel sandboxes. I've also been on the team that responds when a CPU vulnerability (Spectre, Meltdown, MDS and their descendants) lands on a fleet running strangers' binaries.
+- **Security and abuse.** I led the move of Google's serverless fleet onto [gVisor](https://gvisor.dev) guest-kernel sandboxes, and I'm incident commander for most of our zero-days, including the CPU ones (Spectre, Meltdown, MDS and their descendants) that land on a fleet running strangers' binaries. I handle FedRAMP compliance, built the monitoring and detection that stops abuse such as crypto-mining, and wrote the Cloud Run support for live instance monitoring in [Cloud Run Threat Detection](https://cloud.google.com/security-command-center/docs/cloud-run-threat-detection-overview).
 - **Control planes.** I drove a multi-year rebuild of the serverless control plane onto Spanner. Those are the boring migrations that make later work possible.
 - **Cold starts.** I worked on container image streaming and filesystem work (EROFS) so that a sandbox doesn't cost you latency.
 - **Shipping safely.** I built experiment-gated rollouts, where every change ramps behind a flag and is measured before it's trusted.
-- **Abuse.** I built telemetry-driven detection that shuts down crypto-mining abuse in minutes, not hours.
 
 I've gone back and forth between managing large engineering groups (including App Engine's language runtimes) and hands-on technical leadership. Before Cloud I worked in ads in London and Mountain View: AdSense, AdWords and the DoubleClick Ad Exchange.
 
