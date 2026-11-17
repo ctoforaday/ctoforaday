@@ -6,7 +6,7 @@ Systems engineer. Nearly twenty years at Google, the last decade in the plumbing
 
 - **Security and abuse.** I led the move of Google's serverless fleet onto [gVisor](https://gvisor.dev) guest-kernel sandboxes, and I'm incident commander for most of our zero-days, including the CPU ones (Spectre, Meltdown, MDS and their descendants) that land on a fleet running strangers' binaries. I handle FedRAMP compliance, built the monitoring and detection that stops abuse such as crypto-mining, and wrote the Cloud Run support for live instance monitoring in [Cloud Run Threat Detection](https://cloud.google.com/security-command-center/docs/cloud-run-threat-detection-overview).
 - **Control planes.** I drove a multi-year rebuild of the serverless control plane onto Spanner. Those are the boring migrations that make later work possible.
-- **Cold starts.** I worked on container image streaming and filesystem work (EROFS) so that a sandbox doesn't cost you latency.
+- **MicroVMs.** I'm responsible for much of the performance, security and migration work on Cloud Run's [second-generation execution environment](https://cloud.google.com/run/docs/about-execution-environments), which runs each instance in a microVM.
 - **Shipping safely.** I built the experiment system for all of serverless: every change ramps behind a flag and is measured before it's trusted. I added Mantel–Haenszel stratification to it, so that a change's effect is measured within each application instead of being blurred across the whole fleet.
 
 I've gone back and forth between managing large engineering groups (including App Engine's language runtimes) and hands-on technical leadership. Before Cloud I worked in ads in London and Mountain View: AdSense, AdWords and the DoubleClick Ad Exchange.
