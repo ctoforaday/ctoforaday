@@ -20,7 +20,7 @@ I've gone back and forth between managing large engineering groups (including Ap
 - `frank-exchange-of-views`: a research engine where a red team tries to break a blue team's report before a judge accepts it.
 - `gray-area`: trajectory tools that answer "what did the agents *actually* do?"
 
-**Opinions, loosely held**
+**Strong opinions, loosely held**
 
 - A good argument is a courtesy, not an attack.
 - A check you didn't run isn't a pass.
